@@ -1,0 +1,19 @@
+{
+  "mcpServers": {
+    "limble-mcp": {
+      "command": "npx",
+      "args": [
+        "mcp-remote",
+        "https://mcp.limblecmms.com/mcp",
+        "--header",
+        "Limble-Client-ID: ${LIMBLE_CLIENT_ID}",
+        "--header",
+        "Limble-Client-Secret: ${LIMBLE_CLIENT_SECRET}"
+      ],
+      "env": {
+        "LIMBLE_CLIENT_ID": "",
+        "LIMBLE_CLIENT_SECRET": ""
+      }
+    }
+  }
+}
