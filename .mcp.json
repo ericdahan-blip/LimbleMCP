@@ -11,8 +11,8 @@
         "Limble-Client-Secret: ${LIMBLE_CLIENT_SECRET}"
       ],
       "env": {
-        "LIMBLE_CLIENT_ID": "",
-        "LIMBLE_CLIENT_SECRET": ""
+        "LIMBLE_CLIENT_ID": "YOUR_CLIENT_ID",
+        "LIMBLE_CLIENT_SECRET": "YOUR_CLIENT_SECRET"
       }
     }
   }
